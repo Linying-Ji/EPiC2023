@@ -14,7 +14,7 @@
   - version number, [citation]
   - One-hot-encoding?
   - hyper-parameter tuning:
-  - Metrix: RMSE
+  - Metric: RMSE
 
 * Transformer
 ## Data Preprocessing
