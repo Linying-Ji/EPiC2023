@@ -9,6 +9,19 @@
 * Zachary Fisher, Health and Human Development Department, the Pennsylvania State Univeristy, University Park, U.S.
 * Sy-Miin Chow, Health and Human Development Department, the Pennsylvania State Univeristy, University Park, U.S.
 # Our approach
+## Machine Learning Models
+* XGBoost
+  - version number, [citation]
+  - One-hot-encoding?
+  - hyper-parameter tuning:
+  - Metrix: RMSE
+
+* Transformer
+## Data Preprocessing
+* Processing physiodata
+* Reducing frequency
+* data merge
+* dynamic feature [maybe]
 
 # Repository content
 
