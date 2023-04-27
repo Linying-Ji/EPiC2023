@@ -68,9 +68,10 @@ def get_rmse_save_result (trials, best, X_train, X_test):
 
 #############################################################################
 
-# # Read files ------------------------------------------------------------
-# Set the working directory
-path = "XXX/EPiC_2023/train_data/" # directory of the processed data: change it to your own directory
+# Read files ------------------------------------------------------------
+
+# Set directory of the processed data: change it to your own directory
+path = "XXX/EPiC_2023/train_data/"
 os.chdir(path)
 os.getcwd()
 
@@ -85,13 +86,9 @@ print(total.shape)
 
 
 # Drop features -------------------------------------------------------
-total.drop(['SCENARIO'], axis=1, inplace=True) # keep 'unique_number'
+total.drop(['SCENARIO'], axis=1, inplace=True)
 
-print("Used columns are:")
-print(total.columns)
-print("--------------------------")
-
-# Split Train / Valid/ Test set -----------------------------------------------------
+# Split Train / Valid/ Test set ----------------------------------------------
 X_train_list = []
 X_valid_list = []
 X_test_list = []
