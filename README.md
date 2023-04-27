@@ -11,12 +11,16 @@
 # Our approach
 ## Machine Learning Models
 * XGBoost
-  - version number, [citation]
-  - One-hot-encoding?
-  - hyper-parameter tuning:
+  - xgboost 1.7.5 [[1]](#1)
+  - Dependencies: see requirements.txt
+  - hyper-parameter tuning using Hyperopt 0.2.7 [[2]](#2)
   - Metric: RMSE
 
 * Transformer
+  -
+  -
+  -
+  
 ## Data Preprocessing
 * Processing physiodata
 * Reducing frequency
@@ -35,3 +39,11 @@
 
 
 # Notes for running the code
+
+
+## References
+<a id="1">[1]</a> 
+Tianqi Chen and Carlos Guestrin. "XGBoost: A Scalable Tree Boosting System." In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '16), pp. 785-794, San Francisco, CA, USA, August 13-17, 2016.
+
+<a id="2">[2]</a> 
+Bergstra, J., Yamins, D., Cox, D. D. (2013) Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures. To appear in Proc. of the 30th International Conference on Machine Learning (ICML 2013).
