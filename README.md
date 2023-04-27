@@ -2,7 +2,7 @@
 * Linying ji, Biobehavioral Health Department, the Pennsylvania State Univeristy, University Park, U.S.
 * Yuqi Shen, Biobehavioral Health Department, the Pennsylvania State Univeristy, University Park, U.S.
 * Tanming Cui, Independent Researcher
-* Young Won Chow, Health and Human Development Department, the Pennsylvania State Univeristy, University Park, U.S.
+* Young Won Cho, Health and Human Development Department, the Pennsylvania State Univeristy, University Park, U.S.
 * Yanling Li, Health and Human Development Department, the Pennsylvania State Univeristy, University Park, U.S.
 * Xiaoyue Xiong, Health and Human Development Department, the Pennsylvania State Univeristy, University Park, U.S.
 * Christopher Michael Crawford, Health and Human Development Department, the Pennsylvania State Univeristy, University Park, U.S.
