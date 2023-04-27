@@ -24,5 +24,14 @@
 * dynamic feature [maybe]
 
 # Repository content
+* "data_processing" folder:
+  - *xxx.py*: Python code for processing physio data and merging physio and affect data
+  - *extract_dynamic_features.R*: R code for extracting dynamic features based on processed physio data
+* "results" folder: result files with predictions. Use the original naming and structure of directories, e.g., ./results/scenario_2/fold_3/test/annotations/sub_0_vid_2.csv
+* "models" folder:
+  - *xxx.py*: code for fitting XGBoost models
+  - *xxx.py*: code for fitting transformer models
+* "requirements.txt": dependencies file with required libs and their versions
+
 
 # Notes for running the code
