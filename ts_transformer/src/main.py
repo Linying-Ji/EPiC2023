@@ -66,7 +66,9 @@ def main(config):
         validation_method = 'StratifiedShuffleSplit'
         labels = my_data.labels_df.values.flatten()
     else:
-        validation_method = 'GroupKFold'
+        if 'scenario_2' in config['data_class']:
+            validation_method = 'GroupKFold'
+        validation_method = 'ShuffleSplit'
         labels = None
 
     # Split dataset

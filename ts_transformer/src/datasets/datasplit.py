@@ -198,7 +198,7 @@ class GroupKFold(DataSplitter):
     def split_testset(self, test_ratio, random_state=1337):
         splitter = model_selection.GroupKFold(n_splits=5)
         # get local indices, i.e. indices in [0, len(data_indices))
-        train_val_indices, test_indices = next(splitter.split(X=np.zeros(len(self.data_indices)),groups=self.data_indices['elicitor']))
+        train_val_indices, test_indices = next(splitter.split(X=np.zeros(len(self.data_indices)),groups=self.data_indices['ID']))
         # return global datasets indices and labels
         self.train_val_indices = self.data_indices[train_val_indices]
         self.test_indices = self.data_indices[test_indices]
@@ -213,7 +213,7 @@ class GroupKFold(DataSplitter):
         """
         splitter = model_selection.GroupKFold(n_splits=5)
         # get local indices, i.e. indices in [0, len(train_val_labels)), per fold
-        train_indices, val_indices = zip(*splitter.split(X=np.zeros(len(self.train_val_indices)),groups=self.train_val_indices['elicitor']))
+        train_indices, val_indices = zip(*splitter.split(X=np.zeros(len(self.train_val_indices)),groups=self.train_val_indices['ID']))
         # return global datasets indices per fold
         self.train_indices = [self.train_val_indices[fold_indices] for fold_indices in train_indices]
         self.val_indices = [self.train_val_indices[fold_indices] for fold_indices in val_indices]
